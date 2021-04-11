@@ -15,10 +15,10 @@
  * The result should be 9
  */
 function getMatrixElementsSum(matrix) {
-  let i,
-    k,
-    result = 0,
-    size = matrix.length;
+  let i;
+  let k;
+  let result = 0;
+  const size = matrix.length;
   for (i = 0; i < size; i++) {
     for (k = 0; k < matrix[i].length; k++) {
       if (i === 0 || matrix[i - 1][k] !== 0) {
